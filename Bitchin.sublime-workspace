@@ -8,10 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "Index.html",
 			"settings":
 			{
-				"buffer_size": 82,
+				"buffer_size": 79,
 				"line_ending": "Unix"
 			}
 		}
@@ -52,6 +52,7 @@
 	],
 	"file_history":
 	[
+		"/Users/ideabase/Documents/group1/index.html"
 	],
 	"find":
 	{
@@ -91,19 +92,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "Index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 82,
+						"buffer_size": 79,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								82,
-								82
+								39,
+								39
 							]
 						],
 						"settings":
@@ -156,7 +157,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "BitchinBarbsBridal.sublime-project",
+	"project": "bitchin.sublime-project",
 	"replace":
 	{
 		"height": 0.0
