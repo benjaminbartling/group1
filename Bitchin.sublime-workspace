@@ -3,15 +3,27 @@
 	{
 		"selected_items":
 		[
+			[
+				"h",
+				"h2	Tag"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Index.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 79,
+				"buffer_size": 665,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wireframes/index.html",
+			"settings":
+			{
+				"buffer_size": 5939,
 				"line_ending": "Unix"
 			}
 		}
@@ -52,7 +64,8 @@
 	],
 	"file_history":
 	[
-		"/Users/ideabase/Documents/group1/index.html"
+		"/Users/ideabase/Documents/group1/index.html",
+		"/Users/ideabase/Documents/group1/Index.html"
 	],
 	"find":
 	{
@@ -87,24 +100,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Index.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 79,
+						"buffer_size": 665,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								39,
-								39
+								0,
+								0
 							]
 						],
 						"settings":
@@ -113,6 +126,34 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wireframes/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5695,
+								5695
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 680.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
