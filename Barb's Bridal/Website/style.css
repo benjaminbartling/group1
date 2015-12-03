@@ -85,10 +85,10 @@
     padding-right: 15%;
 }
 #column1 {
-		float:left;
-		width: 50%;
+		float: left;
+    padding-right:3%
 	}
-
+   
 	#column2 {
 		float:left;
 		width: 50%;
