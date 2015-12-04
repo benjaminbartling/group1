@@ -1,31 +1,68 @@
 <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-<html lang="en-us">
-  <head>
-      
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Barb's Bridal Boutique</title>
-    <meta name="Barb's Bridal Boutique" content="Your perfect day - your perfect dress.">
-      <head>
-    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="vendors/jquery.easings.min.js"></script>
-    <script type="text/javascript" src="jquery.fullPage.min.js"></script>
+    <title>Barb's Bridal</title>
+    <meta name="description" content="Page Description Goes Here">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage fixed header and footer." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fixed, header,footer, absolute, positioned,css" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage','4th Page','5th Page'],
+				sectionsColor: ['#FFF', '#FFF', '#FFF'],
+				css3: true,
+                responsiveWidth: 900
+			});
+		});
+	</script>
+
 </head>
-  </head>
-  <body>
-   
-<section class="window">
- <section class="welcome">
+<body>
+
+
+<div id="header">Header</div>
+
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="intro">
+		<section class="welcome">
      <img src="http://rwdkent.com/groups/assets/group1/barb.svg" alt=logo>
-     <h2>Scroll Down</h2>
      </section>
-     </section>
-<section class="window">
-     <section class="about_us">
-    <main>
+		</div>
+	</div>
+	<div class="section" id="section1">
+	    <div class="intro">
+			<div class="intro">
+				<section class="about_us">
+  
        <h2>About Us</h2>
        	<p>Your perfect day - your perfect dress.</p>
 
@@ -33,18 +70,165 @@
         <p>At Barb’s Bridal Boutique, family comes first.  With four generations, from Great-Grandma Barbara to Little Olivia Rose, we know a little something about family.  That’s why we love what we do.  It is our pleasure to               help you celebrate your love.  We consider it a privilege to be included in your big day.  We take that privilege very seriously.  That attitude comes across in our approach to customer service.  We treat everyone like                family.  At Barb’s Bridal Boutique you’ll never have endure snooty salespeople or high pressure sales tactics.  We believe the quality of our merchandise speaks for itself.  When you step into our store you will be                  greeted with a warm friendly smile from experienced bridal consultants who are more than happy to answer your questions.  No matter what your budget is you will be treated with the utmost respect.  Come in and                   experience the difference.  You won’t be disappointed.</p>
 
         <p>Helping you find your dream dress is really just the start of our relationship! Rest assured that our extremely knowledgeable associates will walk you through the details of your purchase, explain the ordering process            and timeline, develop a pick-up plan with you, and make personal recommendations for alterations and any other necessary wedding vendors you may be seeking. We are here for you.</p>
-    </main>
+   
     </section>
-    </section>
-    
-</section>
-<section class="window"></section>
-    <section class="designers">
-    <h2> Designers </h2>
-<h3>Angel Sanchez</h3>
+			</div>
+		</div>
+
+	</div>
+	<div class="section" id="section2">
+	    <div class="slide" id="slide1">
+			<div class="intro">
+                <section class="designers">
+				<h2> Designers </h2>
+                    <div id="image">
+		 <img src="images/angel.jpg" />
+	</div>
+                    <div class="text">
+		<h3>Angel Sanchez</h3>
 <p>Angel Sanchez is a Venezuelan designer whose creations cater to the contemporary bride with daring tastes. Our Angel Sanchez options aren’t for every bride, but those who want to leave a dramatic impression when they walk down the aisle have come to the right place! Sanchez designs his dresses with architectural principles in mind, creating the one-of-a-kind look that his gowns tend to showcase. His dresses are tailor-made for the unconventional bride with a flare for the unusual.
-    Starting at $3,375</p>
-<section class="window"></section>
-<section class="window"></section>
-      <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
-  </body>
+Starting at $3,375
+</p>
+	</div>
+
+                     </section>
+			</div>
+		</div>
+
+	    <div class="slide" id="slide2">
+            <section class="designers">
+			<h3>Adriana Alier by Rosa Clará</h3>
+<p>Adriana Alier by Rosa Clará is an affordable, timeless option for any bride. These chic, traditional style dresses are sure to please all soon-to-be brides. While Rosa Clará is known for her exquisitely detailed dresses, the signature look of her Adriana Alier collection is classic lines and minimal detailing. The gowns are often paired with gloves or belts to add a personal touch to each bride’s wedding day.
+Starting at $1,300</p>
+		</div>
+         <div class="slide" id="slide3">
+             <section class="designers">
+			<h3>Antonio Gual for Tulle</h3>
+<p>Antonio Gual’s designs showcase a traditional, feminine bridal style. His dresses are flattering on all body types and are appropriate for conservative ceremonies. Gual knew that he wanted to be a designer from a young age and is now dedicated to making his brides feel beautiful on the most memorable day of their life. These timeless masterpieces are a guaranteed pleaser, they’re classic, but they’re definitely not boring.
+Starting at $3,000</p>
+                 </section>
+		</div> <div class="slide" id="slide4">
+             <section class="designers">
+			<h3>Lea-Ann Belter</h3>
+<p>Canadian designer Lea-Ann Belter’s style can be summed up in two words: modern and timeless. While these two words may seem contradictory, Belter has been able to infuse them deep into the seams of her designs. She’s been the creative type ever since she was a little girl, but didn’t realize that she would be designing wedding dresses until she hand-crafted a gown for her sister-in-law. Her flawless style caught on when she launched the Lea-Ann Belter Bridal line, and she’s been designing classic wedding dresses ever since.
+Starting at $3,563</p>
+                 </section>
+		</div> <div class="slide" id="slide5">
+             <section class="designers">
+			<h3>Legends by Romona Keveza</h3>
+<p>Romona Keveza is a fashion designer that found herself inspired by women like Jackie Kennedy and Audrey Hepburn, who are known for their classic styles. Her designs focus on femininity and elegance for the everyday bride that wants a touch of couture. The Legends collection is Keveza’s new, lacey, feminine line that targets modern brides looking for traditional dresses.
+Starting at $3,375</p>
+                 </section>
+		</div>
+           <div class="slide" id="slide6">
+             <section class="designers">
+			<h3> ‘Sottero and Midgley</h3>
+<p>Maggie Sottero is a timeless designer recognized across the world for her updated traditional look. Sottero and Midgley takes this one step further by using bold, lace and fit and flare figures to bring couture looks to brides on a budget. These dresses stand out in a crowd, and when all eyes are on you at the altar, you’ll be glad you went with a Sottero and Midgley. This unique collection is everything a bride could ask for–if she dares to be daring.
+Starting at $1,500</p>
+                 </section>
+		</div>
+	</div>
+    <div class="section" id="section4">
+		   <div class="slide" id="slide1">
+			<div class="intro">
+                <section class="designers">
+<h2> Bridal Stories </h2>
+<p> Barb’s Bridal Boutique takes pride in making your wedding dress, and your White Dress experience, a memorable part of your wedding day. We value our brides-to-be and want you to feel confident shopping local to find your dream dress. See how other Ohio brides showcased a beautiful gown on their special day.</p>
+                     </section>
+			</div>
+		</div>
+
+	    <div class="slide" id="slide2">
+            <section class="designers">
+			<h3> Blakely </h3>
+<p> We had such a fabulous time working with Blakely to find her dream wedding gown! She knew she wanted something timeless and elegant with a detailed twist, and this Lela Rose gown she chose was the total package!
+"My favorite parts were the laser detail and the ruffle on the back," said Blakely. "I think this gown was the perfect mix of my classic, traditional side with a little flare!"
+The bride elected to wait to see her father until the moment before he walked her down the aisle, and the expression on his face [pictured below] says it all! He looks thrilled to see his daughter looking absolutely stunning in her wedding gown!
+Congratulations, Blakely, you were a positively radiant bride!!!</p>
+<p> Read Blakely's story <a href="http://www.ivorywhiteboutique.com/real-ivory-white-bride-blakely/"> here </a></p>
+		</div>
+         <div class="slide" id="slide3">
+             <section class="designers">
+			<h3>Antonio Gual for Tulle</h3>
+<p> We had such a wonderful experience working with Catherine to find her perfect Monique Lhuillier gown! Being a dancer, Catherine wanted to incorporate her professional passion into her bridal portraits and the results are absolutely STUNNING! The pointe shoes are such a classically beautiful touch. We love a bride who embraces her personal style, and Catherine was all smiles and sparkles on her big day! Plus, check out how flawlessly she's working that bold red lip!</p>
+                
+<p>Congratulations, Catherine, you were such an exquisite bride!!!</p>
+                 </section>
+		</div> <div class="slide" id="slide4">
+             <section class="designers">
+			<h3>Lea-Ann Belter</h3>
+<p>We had the pleasure of working with this sweet bride, Madeline, to find her perfect wedding gown.
+"It was important to me that my dress matched the look and feel of our venue," said Madeline. "This gown was absolutely perfect for our Savannah wedding at The Mansion on Forsyth Park - romantic, distinctive, elegant and timeless."</p>
+                 
+                 <p>It was all about the details for the stunning design Madeline chose. </p>
+
+<p>"The hand-embroidered organza overlay was so intricate, delicate and unlike anything I had ever seen," she said. "I loved the off-the shoulder illusion neckline, low back and trumpet silhouette. It was perfect!"
+Congratulations, Madeline! You were such a beautiful bride!</p>
+                 <p> Read Madeline's story <a href="http://www.ivorywhiteboutique.com/real-ivory-white-bride-madeline/"> here </a></p>
+                 </section>
+		
+		</div>
+		</div>
+        <div class="section" id="section5">
+            <section class="upcoming_events">
+       <table>
+<tr>
+<th>Date</th>
+<th> Event </th>
+<th> Event Description </th>
+</tr>
+<tr>
+<th> October 16th-18th </th>
+<td> Nicole Miller Bridal Trunk Show</td>
+<td> Nicole Miller designs are sophisticated, modern, and effortlessly chic. Perfect for the classic bride or destination bride. Please join us to experience her newest collection of stretch silk, corded lace, and gorgeous back details.</td>
+</tr>
+<tr>
+<th> November 1th-13th</th>
+<td> Jim Hjelm Bridal Trunk Show</td>
+<td>Newly designed by Hayley Paige, the Jim Hjelm collection is diverse; ranging from gowns made of vintage-inspired fabrics to modern silhouettes, all with gorgeous details that make the gowns a joy to wear. Join us before the holiday season to experience the best of their collection and the new Fall 2015 styles</td>
+</tr>
+<tr>
+<th> December 4th-6th</th>
+<td>SIRI Mother of the Occasion Trunk Show</td>
+<td>For the past several years, Siri has become a style leader in Mother of the Groom and  Mother of the Bride dresses.  Each collection is designed for the younger or “younger in attitude” mother.  The dresses are understated yet sophisticated,  distinct yet affordable and come in many exciting colors. </td>
+</tr>
+<tr>
+<th>December 17th-20th</th>
+<td>Sara Gabriel Trunk Show</td>
+<td>Join us during the holidays for the Sara Gabriel Trunk Show to see the couture line of bridal accessories. Every veil is individually cut by a professional milliner, finished by hand and beautifully packaged in a preservation-quality garment bag. Sara Gabriel's collection of headpieces and hair jewelry is meticulously crafted from freshwater pearls, Swarovski crystals, hand-sculpted flowers, and glittering rhinestones. These stunning accessories can even be completely customized to suit your style needs! </td>
+</tr>
+</table>
+                
+            </section>
+        </div>
+                <div class="section" id="section6">
+            <section class="appointment">
+<iframe src="https://docs.google.com/forms/d/18yohi14vo1zvZoEkk3U0NAfW1G9tVDkduuxYFK_uu1s/viewform?embedded=true" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                    </section>
+		</div>
+        <div class="section" id="section7">
+            <section class="contact_us">
+<dl>
+<dt>Contact Information</dt>
+<dd>330-672-3031</dd>
+<dd>450 East Main Street</dd>
+<dd>Kent, Ohio  44242</dd>
+<dt>Review us on <a href=" https://www.theknot.com">The Knot</a></dt>
+<dd>this is an important resource for our clients - like Yelp for bridal dresses</dd>
+<dt>Location</dt>
+<dd> INSERT GOOGLE MAP </dd>
+<dt>Boutique Hours</dt>
+<dd>Monday & Thursday: 11am-8pm</dd>
+<dd>Tuesday, Wednesday,& Friday: 11am-6pm</dd>
+<dd>Saturday: 10am-5pm</dd>
+<dd>Sunday: CLOSED</dd>
+<dd>Bridal appointments are required on Friday, Saturday, & Sunday</dd>
+</dl>
+                    </section>
+		</div>
+</div>
+
+</div>
+ <div id="footer">Footer</div>
+</body>
+</html>
