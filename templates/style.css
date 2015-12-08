@@ -20,7 +20,33 @@
 
 	#header{
 		top:0px;
+        font-family: 'Roboto Slab', serif;
+        
+        
 	}
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FFD1CF;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
 	#footer{
 		bottom:0px;
 	}
@@ -55,6 +81,8 @@ h3{
 * p{
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
+    margin: 0;
+    padding: 0;
 }
 .fixed {
 	position: fixed; 
@@ -96,8 +124,7 @@ h3{
     .designers img{
         float: left;
         width: 50%;
-            margin-right: 5%;
-        max-width: 500px;
+        max-width: 47%;
     }
     .designers .text{
         float: right;
@@ -140,7 +167,7 @@ h3{
 #section5{
     background-color: #435364;
 }
-#section6 iframe{
+#section5 iframe{
     width: 100%;
 }
 #section6{
