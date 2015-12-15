@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	useFlickr="false"
+	useFullscreenExpand="false"
+	useThumbDots="false"
+	showOpenButton="false"
+	showExpandButton="false"
+	showThumbsButton="false"
+	backgroundColor="rgba(255,255,255,1)"
+	thumbFrameColor="rgba(67,83,100,1)"
+
+>
+  <image imageURL="images/110201_035_Hero_4ed4c.jpg"
+	thumbURL="thumbs/110201_035_Hero_4ed4c.jpg"
+	linkURL="images/110201_035_Hero_4ed4c.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/benjaminbartling/Google Drive/School/Junior Year/Fall Semester - 2015/Responsive Web Design/Semester Project/group1/templates/images/photography/Photos/110201_035_Hero_4ed4c.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/b99532_16a8e1957a47436896ed8fc0c144590e.jpg_srz_934_1245_85_22_0.50_1.20_0.00_jpg_srz.jpeg"
+	thumbURL="thumbs/b99532_16a8e1957a47436896ed8fc0c144590e.jpg_srz_934_1245_85_22_0.50_1.20_0.00_jpg_srz.jpeg"
+	linkURL="images/b99532_16a8e1957a47436896ed8fc0c144590e.jpg_srz_934_1245_85_22_0.50_1.20_0.00_jpg_srz.jpeg"
+	linkTarget="_blank"
+	sourcePath="/Users/benjaminbartling/Google Drive/School/Junior Year/Fall Semester - 2015/Responsive Web Design/Semester Project/group1/templates/images/photography/Photos/b99532_16a8e1957a47436896ed8fc0c144590e.jpg_srz_934_1245_85_22_0.50_1.20_0.00_jpg_srz.jpeg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/slider2.jpg"
+	thumbURL="thumbs/slider2.jpg"
+	linkURL="images/slider2.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/benjaminbartling/Google Drive/School/Junior Year/Fall Semester - 2015/Responsive Web Design/Semester Project/group1/templates/images/photography/Photos/slider2.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/115236_Wedding_dresses_2015_spring1.jpg"
+	thumbURL="thumbs/115236_Wedding_dresses_2015_spring1.jpg"
+	linkURL="images/115236_Wedding_dresses_2015_spring1.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/benjaminbartling/Google Drive/School/Junior Year/Fall Semester - 2015/Responsive Web Design/Semester Project/group1/templates/images/photography/Photos/115236_Wedding_dresses_2015_spring1.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/ersa-atelier-wedding-dresses-2015-9-05202014nz.jpg"
+	thumbURL="thumbs/ersa-atelier-wedding-dresses-2015-9-05202014nz.jpg"
+	linkURL="images/ersa-atelier-wedding-dresses-2015-9-05202014nz.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/benjaminbartling/Google Drive/School/Junior Year/Fall Semester - 2015/Responsive Web Design/Semester Project/group1/templates/images/photography/Photos/ersa-atelier-wedding-dresses-2015-9-05202014nz.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/general-ideas-elegant-long-sleeves-wedding-dresses-wonderful-2015-wedding-dresses-with-sleeves-wonderful-chic-and-nice-2015-wedding-dresses-stunning-elegant-2015-wedding-dress-designs-2015.jpg"
+	thumbURL="thumbs/general-ideas-elegant-long-sleeves-wedding-dresses-wonderful-2015-wedding-dresses-with-sleeves-wonderful-chic-and-nice-2015-wedding-dresses-stunning-elegant-2015-wedding-dress-designs-2015.jpg"
+	linkURL="images/general-ideas-elegant-long-sleeves-wedding-dresses-wonderful-2015-wedding-dresses-with-sleeves-wonderful-chic-and-nice-2015-wedding-dresses-stunning-elegant-2015-wedding-dress-designs-2015.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/benjaminbartling/Google Drive/School/Junior Year/Fall Semester - 2015/Responsive Web Design/Semester Project/group1/templates/images/photography/Photos/general-ideas-elegant-long-sleeves-wedding-dresses-wonderful-2015-wedding-dresses-with-sleeves-wonderful-chic-and-nice-2015-wedding-dresses-stunning-elegant-2015-wedding-dress-designs-2015.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/jim-hjelm-bridal-ivory-tulle-ball-gown-lace-bodice-halter-neckline-t-strap-back-sweep-train-8504_zm.jpg"
+	thumbURL="thumbs/jim-hjelm-bridal-ivory-tulle-ball-gown-lace-bodice-halter-neckline-t-strap-back-sweep-train-8504_zm.jpg"
+	linkURL="images/jim-hjelm-bridal-ivory-tulle-ball-gown-lace-bodice-halter-neckline-t-strap-back-sweep-train-8504_zm.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/benjaminbartling/Google Drive/School/Junior Year/Fall Semester - 2015/Responsive Web Design/Semester Project/group1/templates/images/photography/Photos/jim-hjelm-bridal-ivory-tulle-ball-gown-lace-bodice-halter-neckline-t-strap-back-sweep-train-8504_zm.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/wedding-dress-stella-york-spring-2015-5984_main_zoom.jpg"
+	thumbURL="thumbs/wedding-dress-stella-york-spring-2015-5984_main_zoom.jpg"
+	linkURL="images/wedding-dress-stella-york-spring-2015-5984_main_zoom.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/benjaminbartling/Google Drive/School/Junior Year/Fall Semester - 2015/Responsive Web Design/Semester Project/group1/templates/images/photography/Photos/wedding-dress-stella-york-spring-2015-5984_main_zoom.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Y11561_Designer-Wedding-Dresses-2015.jpg"
+	thumbURL="thumbs/Y11561_Designer-Wedding-Dresses-2015.jpg"
+	linkURL="images/Y11561_Designer-Wedding-Dresses-2015.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/benjaminbartling/Google Drive/School/Junior Year/Fall Semester - 2015/Responsive Web Design/Semester Project/group1/templates/images/photography/Photos/Y11561_Designer-Wedding-Dresses-2015.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>

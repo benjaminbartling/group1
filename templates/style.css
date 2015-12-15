@@ -117,7 +117,7 @@ h3{
    margin: 0 auto;
 }
 @media only screen and (min-width: 600px){
-    .designers #flexslider{
+    .designers img{
         float: left;
         width: 50%;
         max-width: 47%;
@@ -137,6 +137,9 @@ h3{
     width: 70%;
     padding-left: 15%;
     padding-right: 15%;
+}
+table{
+    width: 100%
 }
 .upcoming_events h2{
     text-align: center;
