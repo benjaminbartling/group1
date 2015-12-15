@@ -16,8 +16,6 @@
 #header{
     position:fixed;}
 }
-
-
 	#header{
 		top:0px;
         font-family: 'Roboto Slab', serif;
@@ -106,9 +104,7 @@ h3{
     
 }
 .about_us h2{
-    text-align: center;
-    
-    
+    text-align: center;   
 }
 
 .designers{
@@ -169,6 +165,7 @@ table{
 }
 #section5 iframe{
     width: 100%;
+    background-color:#435364; 
 }
 #section6{
     background-image: url(pictures/location_google_map.png);
