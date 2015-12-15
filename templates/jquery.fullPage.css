@@ -50,16 +50,26 @@ html.fp-enabled,
     table-layout:fixed;
     width: 100%;
 }
+
 .fp-tableCell {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
     height: 100%;
 }
+@media only screen and (max-width: 600px) {
+.fp-section,
+.fp-slide,
+.fp-tableCell{
+    height: auto !important;
+}
+}
 .fp-slidesContainer {
     float: left;
     position: relative;
 }
+
+
 .fp-controlArrow {
     position: absolute;
     z-index: 4;

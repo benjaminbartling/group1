@@ -17,9 +17,7 @@
     position:fixed;}
 }
 	#header{
-		top:0px;
-        font-family: 'Roboto Slab', serif;
-        padding-right: 4%
+		display: none
 	}
 
 /* unvisited link */
