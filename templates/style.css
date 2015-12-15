@@ -21,29 +21,29 @@
 	#header{
 		top:0px;
         font-family: 'Roboto Slab', serif;
-        
-        
+        padding-right: 4%
 	}
+
 /* unvisited link */
-a:link {
+#header a:link {
     color: white;
     text-decoration: none;
 }
 
 /* visited link */
-a:visited {
+#header a:visited {
     color: #FFD1CF;
     text-decoration: none;
 }
 
 /* mouse over link */
-a:hover {
+#header a:hover {
     color: hotpink;
     text-decoration: none;
 }
 
 /* selected link */
-a:active {
+#header a:active {
     color: blue;
     text-decoration: none;
 }
@@ -81,8 +81,6 @@ h3{
 * p{
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
-    margin: 0;
-    padding: 0;
 }
 .fixed {
 	position: fixed; 
@@ -94,31 +92,29 @@ h3{
     padding-top: 5%;
   margin-left: auto;
   margin-right: auto;
-
-  width: 60%;
+  width: 70%;
 }
-.welcome h2{
-    top margin: inherit
-    text-align: center;
-    bottom: 0;
-    position: absolute;
-    width: 55%;
 
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+    background-color:white;
+   padding: 5%;
 }
 .about_us{
     width: 70%;
-    padding-left: 15%;
-    padding-right: 15%;
+    margin: 0 auto;
+    
 }
 .about_us h2{
     text-align: center;
     
     
 }
+
 .designers{
-    width: 70%;
-    padding-left: 15%;
-    padding-right: 15%;
+    width: 50%;
+   margin: 0 auto;
 }
 @media only screen and (min-width: 600px){
     .designers img{
@@ -164,6 +160,8 @@ h3{
   width: 60%;
  text-align: left;   
 }
+
+
 #section5{
     background-color: #435364;
 }
