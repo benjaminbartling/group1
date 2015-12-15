@@ -2,7 +2,7 @@
 
 
 	#header, #footer{
-		height: 50px;
+		height: 25px;
 		display:block;
 		width: 100%;
 		background: #333;
@@ -171,7 +171,7 @@ table{
     width: 100%;
 }
 #section6{
-    background-image: url(images/location_google_map.png);
+    background-image: url(pictures/location_google_map.png);
         background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
