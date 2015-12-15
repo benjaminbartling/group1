@@ -12,12 +12,14 @@
 		padding: 20px 0 0 0;
 	}
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 #header{
-    position:fixed;}
+    display: none;}
 }
 	#header{
-		display: none
+		top:0px;
+        font-family: 'Roboto Slab', serif;
+        padding-right: 4%
 	}
 
 /* unvisited link */
@@ -108,15 +110,22 @@ h3{
     margin: 0 auto;
     
 }
+@media only screen and (max-width: 600px) {
+.about_us{
+    width: 80%;
+    margin: 0 auto;}
+}
 .about_us h2{
     text-align: center;   
 }
+
 
 .designers{
     width: 50%;
    margin: 0 auto;
 }
-@media only screen and (min-width: 1200px){
+
+@media only screen and (max-width: 600px){
     .designers img{
         float: left;
         width: 50%;
@@ -127,41 +136,15 @@ h3{
             width:45%;
         
     }   
+    .designers{
+    width: 65%;
+   margin: 0 auto;
+}
 }
 
 h3{
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
-}
-.upcoming_events{
-    width: 70%;
-    padding-left: 15%;
-    padding-right: 15%;
-}
-table{
-    width: 100%
-}
-.upcoming_events h2{
-    text-align: center;
-}
-.upcoming_events td:nth-child(n+2) {
-    text-align: center;
-    font-weight: 400;
-}
-.upcoming_events th {
-  background-color: #435364;
-  color: white;
-  padding: .5em;
-  text-align: left;
-}
-
-.upcoming_events td:first-child {
-  width: 20%;
-    
-}
-.upcoming_events td:last-child {
-  width: 60%;
- text-align: left;   
 }
 
 
