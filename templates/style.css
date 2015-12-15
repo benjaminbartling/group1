@@ -117,7 +117,7 @@ h3{
    margin: 0 auto;
 }
 @media only screen and (min-width: 600px){
-    .designers img{
+    .designers #flexslider{
         float: left;
         width: 50%;
         max-width: 47%;
