@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Roboto+Slab:400,300,100,700);
+
+
+	#header{
+		height: 55px;
+		display:block;
+		width: 100%;
+		z-index:20000;
+		text-align:center;
+		color: #f2f2f2;
+		padding: 20px 0 0 0;
+        position: fixed;
+        background-color: #435364
+	}
+#header a{
+        position: relative;
+        z-index: 10000;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+#header{
+    display: none;}
+}
+	#header{
+		top:0px;
+        font-family: 'Roboto Slab', serif;
+        padding-right: 4%
+	}
+
+/* unvisited link */
+#header a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+#header a:visited {
+    color: #FFD1CF;
+    text-decoration: none;
+}
+
+/* mouse over link */
+#header a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+/* selected link */
+#header a:active {
+    color: blue;
+    text-decoration: none;
+}
+	#footer{
+		bottom:0px;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu {
+		bottom: 80px;
+	}
+	#infoMenu li a {
+		color: #fff;
+		z-index: 999;
+	}
+
+
+*{
+    color: #435364;
+    font-family: 'Roboto Slab', serif;
+    
+}
+h3{
+    margin: 0;
+}
+* h2 {
+  font-family: 'Pacifico', cursive;
+    text-align: center;
+  }
+    img{
+        max-width: 100%;
+    }
+* p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.material {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+    background-color:white;
+   padding: 5%;
+    z-index: 1;
+}
+
+
+.demo{
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%
+}
+
+@media only screen and (min-width: 900px){
+    .demo img{
+        float: left;
+        width: 50%;
+        max-width: 47%;
+        padding-bottom: 2em;
+        
+    }
+    .demo .text{
+        float: right;
+            width:45%;
+        
+    }   
+    
+}
+
+h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
